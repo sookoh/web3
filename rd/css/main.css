@@ -1,0 +1,199 @@
+nav {
+	font-size: 1em;
+	position: fixed;
+    top: 0;
+    left:0;
+    background:rgb(10, 10, 10);
+    width: 8%; 
+    overflow:hidden;
+    height: 100%;
+    transition:width 1s;
+    float:right;
+}
+
+nav ul, nav li {
+    list-style:none;
+	line-height:0;
+	margin-top: 2em;
+	margin-left: 0em;
+}
+
+nav li a {
+text-decoration:none;
+color:#fff;
+}
+
+nav li a:hover{
+transform: scale(2,2);
+color:rgb(100, 100, 100);
+}
+
+nav li a:active{
+transform: scale(2,2);
+color:rgb(100, 100, 100);
+}
+
+body {
+	margin-left: 15%; 
+    transition:background-color 3s;
+	font-family: "Raleway", sans-serif;
+	 background:rgb(200,200,200);
+}
+
+section {  
+    width:90%; 
+    float:left;
+    }
+    
+p {
+font-size: 21px;
+line-height: 27px;
+color: rgb(10, 10, 10);
+}
+
+#one p {
+	padding-top:3em;
+	padding-bottom: 15em;
+	font-size: 4em;
+	line-height: 1em;
+	font-weight: normal;
+}
+
+#two {
+margin-top: 1em;
+margin-bottom: 10em;
+padding-top: 5em;
+padding-bottom: 10em;
+}
+
+
+#two em {
+font-size: 15px;
+}
+
+#three {
+margin-top: 1em;
+margin-bottom: 15em;
+padding-top:5em;
+padding-bottom: 15em;
+}
+
+.frame {
+margin-top: 1em;
+margin-bottom: 10em;
+padding-top:5em;
+padding-bottom: 10em;
+}
+
+.indexframe {
+float: left;
+width:50px;
+height:50px;
+background:rgba(156,75,205,0.5);
+margin: 1em;
+}
+
+#four {
+margin-top: 10em;
+margin-bottom: 10em;
+padding-top:10em;
+padding-bottom: 10em;
+}
+
+#four p{
+float: left;
+
+}
+
+.dot {
+    position:relative;
+    top:50%; left:50%; 
+    transition:left,2s;
+    transition-property: left, top, color;
+    transition-duration: 3s, 3s, 5s;
+    height:60px; width:60px;
+    border-radius:50%;
+    background:rgba(106,140,210,1);
+}
+
+.dot:hover {
+    cursor:pointer;
+    background:rgba(255,0,255,0.5);
+}
+
+
+/* -------------------------------------------------- */
+
+#five {
+margin-top: 1em;
+margin-bottom: 10em;
+padding-top:3em;
+padding-bottom: 10em;
+float: left;
+}
+
+#five-left{
+	width: 47%;
+	float: left;
+	margin-right: 6%;
+}
+
+#five-right{
+	width: 47%;
+	float: left;
+}
+
+
+
+#six {
+margin-top: 1em;
+margin-bottom: 3em;
+padding-top:5em;
+padding-bottom: 3em;
+}
+
+#six p{
+float:left;
+}
+
+form { 
+    margin-top:10px; 
+    width: 400px;
+    Height: 300px;
+    float: left;
+    }
+
+
+#submit {
+font-size: 14px;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 500px) {
+    body { 
+        color:rgba(10,10,10,0.500); 
+        background:rgb(255,255,255); 
+        } 
+  
+  .indexframe {
+	background:rgba(15,15,215,0.5);
+	}
+   
+    #five-left {
+		width: 100%;
+		clear: both;
+		float: left;
+		margin-right: 6%;
+		}
+
+	#five-right {
+		width: 100%;
+		float: left;
+		clear: both;
+	}
+}
+
+
+
