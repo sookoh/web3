@@ -94,6 +94,9 @@ margin: 1em;
 }
 
 #four {
+position: relative;
+height: 100%;
+width: 100%;
 margin-top: 10em;
 margin-bottom: 10em;
 padding-top:10em;
@@ -106,7 +109,8 @@ float: left;
 }
 
 .dot {
-    position:relative;
+    position: absolute;
+    display: block;
     top:50%; left:50%; 
     transition:left,2s;
     transition-property: left, top, color;

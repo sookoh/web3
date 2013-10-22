@@ -1,0 +1,159 @@
+/* emoticonbtn */
+
+.feelings {
+text-align:center;
+background:white;
+border:0px;
+outline: none;
+background: white;
+width: 44px; height: 40px;
+}
+
+/*
+.changeicon {
+background: #ffffcc;
+width: 44px; Height: 40px;
+}
+*/
+
+
+/**
+ * form
+ */
+
+form { margin-bottom:1em; }
+
+input,
+textarea { 
+    display:block; 
+    margin:.25em 0; 
+    width:90%;
+    border:1px solid #ccc;
+    box-shadow:none;
+    border-radius:3px;
+    padding:.25em;
+    font-family: 'Dawning of a New Day', sans-serif;
+}
+
+textarea { 
+    height:50px;
+    resize: vertical; 
+    }
+
+button {
+    margin:.5em 0 0 auto;
+	font-family: 'Dawning of a New Day', sans-serif;
+}
+
+
+#content{
+	font-family: 'Dawning of a New Day', sans-serif;
+}
+
+.mylinks{
+font-size: 20px;
+}
+
+
+
+/**
+ * articles
+ */
+
+article {
+    margin:1em 0;
+    padding:1em 0;
+    border-top:1px dashed #333;
+    font-family: 'Dawning of a New Day', sans-serif;
+}
+
+.home article {
+   /* float:left;
+    width:44%; margin-right:5%;*/
+}
+
+article:hover {
+    background:#eee;
+}
+    
+    
+article.change {
+/*font-size: 2em; 
+background: #ffCC00;*/
+color: red;
+}
+
+    
+    
+h2 { 
+margin-bottom:.25em; 
+}
+
+p { 
+margin-top:.25em;
+}
+
+
+
+
+/**
+ * Global
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background:#000;
+    
+}
+
+p {  
+font-family: 'Dawning of a New Day', sans-serif;
+}
+
+.container {
+    margin:1em auto;
+    font-size: 21px;
+    padding:1em;
+    width:400px;
+    background:#ffffff;
+    font-family: 'Dawning of a New Day', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 550px) {
+
+    .container { 
+        width:90%; 
+        }
+
+}
+
+
+
+/**
+ * Clearfix
+*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+   display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+ 
+.clearfix {
+    *zoom: 1;
+}
